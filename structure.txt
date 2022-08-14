@@ -1,0 +1,18 @@
+Structure:
+notes-app-back-end
+├── node_modules
+├── src
+│ ├── handler.js
+│ ├── notes.js
+│ ├── routes.js
+│ └── server.js
+├── .eslintrc.json
+├── package-lock.json
+└── package.json
+
+Legend:
+-> src => Store all JS files here, to separate them with config files
+> server.js => Include the code to create, configure, and run HTTP Server with Hapi
+> routes.js => Include routing configuration, like defining path, method, and handler used.
+> handler.js => Include all handler functions that are used in routes.js
+> notes.js => Include notes data in form of array object
